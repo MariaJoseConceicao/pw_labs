@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -35,10 +37,26 @@ body {
     bottom: 0;
     width: 100%;
   }
-  a {
-    color: blue; 
-    text-decoration: underline; 
+
+  a{
+    font-size: 12px;
   }
+  
+  #registo{
+   
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  
+  #quadrado {
+    width: 500px;
+    background-color: #d3cdcd;
+    border: 1px solid #000000;
+    padding: 20px;
+  }
+
   .botao {
     display: inline-block;
     padding: 5px 10px;
@@ -49,3 +67,5 @@ body {
     border-radius: 5px; 
     
   }
+ 
+ 
