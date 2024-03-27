@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
-    <link rel="stylesheet" type="text/css" href="./styles/main.css">
-    <link rel="stylesheet" type="text/css" href="./styles/login.css">
+  
+   <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/manage.css">
 <title>Login</title>
 </head>
 <body>
@@ -13,19 +13,22 @@
         <a href="registo.html">Sign Up</a>
     </nav>
     <br>
-    <a href="index.html" class="botao">Back</a>
+    <a href="profile.html" class="botao">Back</a>
     <section>
-            <div id = "login"> Login</div>
+            <div id = "manage"> <p> Profile</p></div>
             <div id="quadrado">
+                <img  src="./assetes/terra.jpg">
+              
                 <form>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name">
+                  <br><br>
                   <label for="Email">Email:</label>
                   <input type="text" id="Email" name="Email">
                   <br><br>
-                  <label for="password">Password:</label>
-                  <input type="password" id="password" name="password">
-                  <br><br>
-                  <a href="profile.html" class="botao">Login</a>
-                  <a class="links" href="password.html">Forgot password?</a>
+                  <div class="centralize">
+                    <a href="profile.html" class="botao_cor" >Save</a>
+                  </div>
                 </form>
               </div>
     </section>
